@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Idea for Space Wars - Ship Battles"
+title: "Multiplayer working Space Wars - Ship Battles"
 date: 2017-09-30
 ---
 
