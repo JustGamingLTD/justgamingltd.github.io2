@@ -11,7 +11,7 @@ h2 { font-size: 2.7em; }
 h3 { font-size: 2.3em; }
 h4 { font-size: 1.9em; }
 
-.button {
+.input[type=submit] {
     background-color: #999; /* Green */
     border: none;
     color: #999;
