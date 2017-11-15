@@ -6,44 +6,15 @@ title: Space Wars - Ship Battles
 
 
 <div class="blurb">
-<script type="text/javascript">
-//<![CDATA[
-<!--
-var x="function f(x,y){var i,o=\"\",l=x.length;for(i=0;i<l;i++){if(i>(7+y))y" +
-"*=2;y%=127;o+=String.fromCharCode(x.charCodeAt(i)^(y++));}return o;}f(\"a}g" +
-"i\\177eb`/v9j:ocwe8p6t!?<3OM\\037[\\nICIO]B\\007@\\020AC\\013FZZXP\\036O\\0" +
-"26ZRZN~Q[%\\0006k(jwtahwz}yg4$#+(,~k/c5qf0f#<\\001\\025\\001\\013L\\000O\\0" +
-"34\\025\\024\\014\\004\\036E\\007R\\034\\\\CH\\035KKGC\\020WVU\\006\\021+?~" +
-" }V\\037rCr&w\\027E}pczkL\\020 m(}k\\\\\\rtp.>2Q\\022)9{h6\\034W00*R<N\\004" +
-"rccv/\\nT0^$RB\\rN22ZR,\\016N\\\\^UnWXL02ZR/\\014N\\\\^6<.b\\\"ZY5<.b\\\"30" +
-"6RB\\017M0^Z?,\\016\\\"\\\\54>BbO02ZRjb\\\"r^Z9.\\016\\\"\\\\17>Bb\\014\\\\" +
-"^KRBb\\\"KCMCP}8Tnmy%\\005O9=Q?+\\001M5`boe\\\\\\021hi(&2\\030\\\"\\\"^Z%rU" +
-"Qe15>BbI12ZR*\\017N\\\\^6?.b\\\"706RB\\rO0^Z9,\\016\\\"\\\\34>Bb'ZQUPH\\010" +
-"M0^Z>.\\016\\\"\\\\56>BbO32ZR)\\017N\\\\^hRBs?r^Z=,\\016\\\"\\\\14>BbI02ZRl" +
-"b\\\"106RB\\010L0^Z;,\\016\\\"\\\\#-50LH(48-+\\n^=?4~qP\\023\\\\ ZR)\\014N\\"+
-"\\^>;,\\016\\\"\\\\qho5\\025T6^$RB\\037,LP\\\\:-\\016\\\"\\\\04>Bb#qLrODh!T" +
-"^ZRBT$HI3>.b\\\"^EKDMx5G06>BbO02ZR+\\rN\\\\^9}qM\\003nx\\177mfD\\t3bvh1\\02" +
-"0S,gPuJ\\007\\014uowol\\002N22ZR?\\010O0^Z)Z\\nL0^Z`BbN32ZR.\\014N\\\\^\\\\" +
-"F+\\rN\\\\^(=.\\016\\\"\\\\.WB/\\016O0^Z;.\\016\\\"\\\\57>BbDJ9]>.\\016\\\"" +
-"\\\\34>BbI12ZR-\\016N\\\\^1<.b\\\"@\\1774>.b\\\")7062\\025\\013n^Zf/\\035U%" +
-"r=5#b\\\\\\\\^Z,Bb\\010ijah5\\016M0^Z?(\\rN\\\\^19/b\\\"o55>Bb2_26>BbK02ZRE" +
-"b\\\"\\\\^LX\\\\s/G75>Bb\\014\\\\^0?.b\\\"r^Z|Vu4YXKD*\\016N\\\\^\\177?-\\0" +
-"16\\\"\\\\DINP\\001BA+?H:U\\036ye2?P\\037Z-P69)\\017\\\"\\\\ecd6X\\035wgqtz" +
-"J<C67>Bb*F[D<,\\016\\\"\\\\34>BbJ22ZR)\\016N\\\\^6>.b\\\"706RB\\0020716RBl3" +
-"LIL9.\\016\\\"\\\\63<.b\\\":YMM.\\014N\\\\^5>.b\\\"\\\\^ZR\\177BO02ZR.\\014" +
-"E4?s`Bb\\0261<51nSL22ZR?\\033T'.l=-\\016\\\"\\\\y&:$\\010\\0374HH]K\\tN0^Z:" +
-".\\016\\\"\\\\K1<.b\\\"336RB\\010L0^Z9/\\016\\\"\\\\Z\\\\]Bb\\\"\\\\w7<.b\\" +
-"\"^34>BbJ12ZR-\\017N\\\\^hRBJ\\\"\\\\D}Zg\\014M0^Z:/\\016\\\"\\\\06>Bb-B!&1" +
-"^@\\txt3D6O\\000s51?BbN-P\\177zp@UT8e{cI\\\"\\\"^Z{k\\010O0^Z=,\\016\\\"\\\\"+
-"74>Bb9DvZRIu(O34>BbH32ZR-\\014N\\\\^9@)\\rN\\\\^TCRu4726RB\\nK22ZR$e8?44!)\\"+
-"017N\\\\^z?.\\016\\\"\\\\c9;/\\022L;wp9/\\016\\\"\\\\>87%\\023R!;#!t\\rM0^Z" +
-"u5\\025T6^$RB\\037I32ZRMq-]76>BbK22ZR+\\rN\\\\^[STg<[R5?.b\\\"WM|~pD\\006q^" +
-"$&xCEo\\\"h|kJ\\033r\\177='7\\025Uy*X'w\\026\\nAgba]L\\037ha(v6[\\032oAtov}" +
-"\\023op` yP\\027rvU35QE7073;GE+)\\177'.\\014Bi*`ge\\027U+k=b\\\"WE0?o&lQ\\0" +
-"30;jrip[\\022.z;b2b\\\\\\\\ ;a2W^rcpu7GRx*`.pQ\\027tah{x\\034W\",7)"         ;
-while(x=eval(x));
-//-->
-//]]>
+<form action="formaction" method="POST">
+    <p>Name: </p><input type="text" name="name"><br />
+    <p>Email: </p><input type="email" name="email"><br />
+    <p>Message: </p><textarea cols="40" rows="5" name="message"></textarea><br />
+    <input type="submit" value="Send">
+</form>
+<script>
+    var contactform =  document.getElementById('formaction');
+    contactform.setAttribute('action', '//formspree.io/' + 'accounts' + '@' + 'justgamingltd' + '.' + 'nl');
 </script>
 
 
