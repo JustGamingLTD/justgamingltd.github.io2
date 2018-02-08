@@ -54,7 +54,7 @@ ul.posts li { list-style: none; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
 
 #discord{
-    margin: 0;
+    margin: auto;
     width: 75%;
     padding: 10px;
 }
