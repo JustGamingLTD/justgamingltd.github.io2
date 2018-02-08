@@ -53,10 +53,9 @@ ul.posts li { list-style: none; }
 .cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
 
-#discord {
-    position: absolute;
-    
-    margin: -100px 0 0 -200px;
-    top: 50%;
-    left: 50%;
+#discord{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
