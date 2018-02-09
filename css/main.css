@@ -5,6 +5,10 @@ table {
     width: 100%;
 }
 
+body {
+   background-image: url("background.png");
+}
+
 
 /* The Modal (background) */
 .modal {
