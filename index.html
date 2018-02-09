@@ -17,7 +17,7 @@ title: PVAI
 
 			<p>We hope that you have fun playing on PVAI.</p>
 			
-			{% assign post = site.posts.first %}
-			{% assign content = post.content %}
-			{% include _layouts/post.html %}
+			{% for post in site.posts limit:1 %}
+			{{ post.content }}
+			{% endfor %}
 		</div> 
