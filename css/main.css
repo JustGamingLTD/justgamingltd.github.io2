@@ -86,6 +86,11 @@ input[type=submit] {padding:5px 15px; background:#ccc; border:0 none;
     -webkit-border-radius: 5px;
     border-radius: 5px; }
 
+button {padding:5px 15px; background:#ccc; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+
 nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
