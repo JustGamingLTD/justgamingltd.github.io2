@@ -18,6 +18,6 @@ title: PVAI
 			<p>We hope that you have fun playing on PVAI.</p>
 			
 			{% assign post = site.posts.first %}
-			  {% assign content = post.content %}
-			  {% include post_detail.html %}
+			{% assign content = post.content %}
+			{% include layouts/post.html %}
 		</div> 
