@@ -18,8 +18,9 @@ title: PVAI
 			<p>We hope that you have fun playing on PVAI.</p>
 			
 			
-			<h1>Latest News</h1>
 			{% for post in site.posts limit:1 %}
+			<h1>Latest News - {{ post.title }}</h1>
+
 			<p class="meta">{{ post.date | date_to_string }}</p>
 			<p>{{ post.content }}</p>
 			{% endfor %}
