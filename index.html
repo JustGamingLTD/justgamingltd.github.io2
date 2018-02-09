@@ -16,4 +16,8 @@ title: PVAI
 			<p>We currently have four fully functional quests, but we are adding more quests.</p>
 
 			<p>We hope that you have fun playing on PVAI.</p>
+			
+			{% assign post = site.posts.first %}
+			  {% assign content = post.content %}
+			  {% include post_detail.html %}
 		</div> 
