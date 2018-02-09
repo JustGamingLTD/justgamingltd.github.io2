@@ -4,5 +4,49 @@ title: PVAI - Store
 ---
 
 		<div class="store">
+			
+			<!-- Trigger/Open The Modal -->
+			<button id="Donator">Donator</button>
+
+			<!-- The Modal -->
+			<div id="DonatorModal" class="modal">
+
+			  <!-- Modal content -->
+			  <div class="modal-content">
+			    <span class="DonatorClose">&times;</span>
+			    <p>Some text in the Modal..</p>
+			  </div>
+
+			</div>
+			
+			<script>
+				
+				// Get the modal
+				var DonatorModal = document.getElementById('DonatorModal');
+
+				// Get the button that opens the modal
+				var Donatorbtn = document.getElementById("Donator");
+
+				// Get the <span> element that closes the modal
+				var DonatorSpan = document.getElementsByClassName("DonatorClose")[0];
+
+				// When the user clicks on the button, open the modal 
+				Donatorbtn.onclick = function() {
+				    DonatorModal.style.display = "block";
+				}
+
+				// When the user clicks on <span> (x), close the modal
+				DonatorSpan.onclick = function() {
+				    modal.style.display = "none";
+				}
+
+				// When the user clicks anywhere outside of the modal, close it
+				window.onclick = function(event) {
+				    if (event.target == modal) {
+					modal.style.display = "none";
+				    }
+				}
+			</script>
+			
 			<form method="get" action="https://pvai.buycraft.net/checkout/packages"><input type="hidden" name="direct" value="true"><input type="hidden" name="action" value="add"><input type="hidden" name="package" value="2863555"><input type="text" name="ign" value=""><input type="submit" value="Buy now"></form>
 		</div>
