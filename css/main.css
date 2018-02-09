@@ -37,8 +37,8 @@ table {
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+#Close:hover,
+#Close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
