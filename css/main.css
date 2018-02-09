@@ -3,7 +3,7 @@ body { margin: 60px auto; width: 80%; }
 table {
     border-collapse: collapse;
     width: 100%;
-    /*background-color: white;*/
+    /*hbackground-color: white;*/
 }
 
 body {
@@ -93,11 +93,10 @@ input[type=submit] {padding:5px 15px; background:#ccc; border:0 none;
     -webkit-border-radius: 5px;
     border-radius: 5px; }
 
-button {padding:5px 15px; background:#28a745; border:0 none;
-    cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 20px;
-    font-size: 30px
+Button {
+    color: #fff;
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg, #34d058 0%, #28a745 90%);
 }
 
 nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
