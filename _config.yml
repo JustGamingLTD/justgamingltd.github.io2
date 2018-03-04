@@ -1,3 +1,4 @@
 name: Space Wars - Ship Battles
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+nav-search: search
